@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+h1{
+    text-align: center;
+    color: green;
+    text-shadow: 2px 3px 4px green;
+    text-align: center;
+}
+h2{
+    color: black;
+    text-shadow: 2px 2px 4px rgb(10, 10, 10);
+    text-align: center;
+}
+.btn{
+    padding: 0.5rem;
+    right: 0;
+    position: fixed;
+    width: 4rem;
+    background: rgb(70, 92, 92);
+    color: rgb(179, 157, 34);
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    height: 90vh;
+}
+
+.btn:hover{
+    color: aliceblue;
+    background-color: goldenrod;
+
+}
+
+.main-editor{
+    background-color:rgb(48, 107, 40);
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 3px black;
+    position: fixed;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid grey;
+
+}
+
+.codec{
+    background-color: white;
+    width: 50%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: pre;
+    box-shadow: 0 1px 1px black;
+    outline: none;
+    padding: 0.6rem;
+    height: 90vh;
+
+
+}
+.second{
+    background-color: rgb(36, 220, 88);
+    width: 50%;
+    overflow-y: auto;
+    white-space: pre;
+    right: 0;
+    box-shadow: 0 1px 1px black;
+    padding: 0.4rem;
+    height: 90vh;
+    
+}
